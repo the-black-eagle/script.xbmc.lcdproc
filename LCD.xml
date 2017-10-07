@@ -1,0 +1,50 @@
+<lcd>
+   <!-- advanced configurables, XML-uncomment and set options as desired -->
+
+   <!-- scrollseparator: string to use as separator if text gets scrolled -->
+   <!--scrollseparator> </scrollseparator-->
+
+   <!-- progressbarsurroundings: put progress bars in square brackets (on/off) -->
+   <!--progressbarsurroundings>off</progressbarsurroundings-->
+
+   <!-- icontextoffset: offset for text displayed after any play/pause icons -->
+   <!--icontextoffset>2</icontextoffset-->
+
+   <!-- allowemptylines: show text lines without contents or filter them (on/off) -->
+   <!--allowemptylines>off</allowemptylines-->
+
+   <!-- centerbigdigits: (try to) align big numbers centered on the display (on/off) -->
+   <!--centerbigdigits>off</centerbigdigits-->
+
+   <!-- disableplayindicatoronpause: turn off any playing indicator (extra stuff) when pausing playback (on/off) --> 
+   <!--disableplayindicatoronpause>off</disableplayindicatoronpause-->
+
+<navigation>
+<line>$INFO[System.CurrentControl]</line>
+</navigation>
+<music>
+<line>$INFO[MusicPlayer.Title] - $INFO[MusicPlayer.Artist]</line>
+</music>
+<video>
+<line>$INFO[VideoPlayer.Title]</line>
+</video>
+<tvshow>
+<line>$INFO[VideoPlayer.TVShowTitle] - $INFO[VideoPlayer.Title]</line>
+</tvshow>
+<general>
+<!-- to just display hours & minutes you can use $INFO[System.Time(hh:mm)] -->
+<line>$INFO[System.Time(hh:mm:ss)]</line>
+</general>
+<screensaver>
+<line>$INFO[System.Time]</line>
+</screensaver>
+<xbelaunch>
+<line>Playing</line>
+</xbelaunch>
+<pvrtv>
+<line>$INFO[VideoPlayer.ChannelName]</line>
+</pvrtv>
+<pvrradio>
+<line>$INFO[MusicPlayer.ChannelName]</line>
+</pvrradio>
+</lcd>
