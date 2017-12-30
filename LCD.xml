@@ -33,7 +33,7 @@
 </tvshow>
 <general>
 <!-- to just display hours & minutes you can use $INFO[System.Time(hh:mm)] -->
-<line>$INFO[System.Time(hh:mm:ss)]</line>
+<line>$INFO[System.Time]</line>
 </general>
 <screensaver>
 <line>$INFO[System.Time]</line>
