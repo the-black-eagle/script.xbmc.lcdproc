@@ -1,11 +1,16 @@
-XBMC LCDproc Python addon
-==========================
+Kodi (XBMC) LCDproc Python addon - Futaba version
+=================================================
 
-Copyright (C) 2012 Team XBMC, Daniel 'herrnst' Scheller
-Based on initial work (C) 2012 Memphiz/Team XBMC
+Copyright (C) 2012-2018 Team Kodi, Daniel 'herrnst' Scheller
+Based on initial work (C) 2012 Memphiz/Team Kodi (formerly Team XBMC)
+Futaba LED display support for the FIC Spectra case (C) 2020 the-black-eagle
 
-LCDproc support for XBMC implemented in Python, direct drop-in replacement for
-the LCD support in XBMC core.
+LCDproc support for Kodi implemented in Python, direct drop-in replacement for
+the LCD support that was present in prior versions of XBMC and it's core.
+
+This version adds support for the Futaba LED display found in the FIC Spectra
+media centre case.  This is my own personal version of the add-on and is not
+endorsed or in any way affiliated with Team Kodi.
 
 See https://github.com/herrnst/script.xbmc.lcdproc/wiki for details and usage
 information.

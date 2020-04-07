@@ -1,8 +1,9 @@
 '''
     XBMC LCDproc addon
-    Copyright (C) 2012-2018 Team Kodi
 
-    Stub class for extra symbol support e.g. on SoundGraph iMON or mdm166a LCDs/VFDs
+    Addon entry point
+
+    Copyright (C) 2012-2018 Team Kodi
     Copyright (C) 2012-2018 Daniel 'herrnst' Scheller
 
     This program is free software; you can redistribute it and/or modify
@@ -22,40 +23,11 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
-from .infolabels import *
 
-class LCDproc_extra_base():
-  def __init__(self):
-    pass
+from resources.lib.xbmclcdproc import XBMCLCDproc
 
-# @abstractmethod
-  def Initialize(self):
-    pass
-
-# @abstractmethod
-  def SetOutputIcons(self):
-    pass
-
-# @abstractmethod
-  def SetOutputBars(self):
-    pass
-
-# @abstractmethod
-  def GetOutputCommands(self):
-    pass
-
-# @abstractmethod
-  def SetBar(self, barnum, percent):
-    pass
-
-# @abstractmethod
-  def SetIconState(self, icon, state):
-    pass
-
-# @abstractmethod
-  def ClearIconStates(self, category):
-    pass
-
-# @abstractmethod
-  def GetClearAllCmd(self):
-    pass
+######
+# script entry point
+if __name__ == "__main__":
+    xbmclcd = XBMCLCDproc()
+    xbmclcd.RunLCD()

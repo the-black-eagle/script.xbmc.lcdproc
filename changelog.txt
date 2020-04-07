@@ -1,3 +1,29 @@
+3.0.6
+- Allow LCDproc protocol version 0.4
+3.0.5
+- selectable BigDigit clock format by mskalski (thanks!)
+3.0.4
+- Fix possible exception due to improper LCD.xml handling
+3.0.3
+- Polish translation update by mskalski (thanks!)
+- Fixed a possible UTF8 conversion crash/exception
+- Updated video/audiocodec strings for extraicon display
+3.0.2
+- Refactored the main addon handling into class XBMCLCDproc()
+- Refactored the settings and infolabels modules into classes
+- fixed connection status popup handling logic
+- Code/vars move and cleanup
+- Window ID cleanup (fixes the extraicon triggers during navigation)
+3.0.1
+- Imports cleaned up
+- Compatibility with Python 3
+3.0.0 (Leia)
+- Compatibility with Kodi 18 Leia
+- Polish translation by mskalski (thanks!)
+- French translation by fengalin (thanks!)
+- Strings finally migrated to strings.po format
+- New progressbar+time linetype by Truong Ta (thanks!)
+- Fixes, cleanups, cosmetics and optimizations all over the place
 2.6.0 (Helix)
 - Initial version for Kodi Helix
 - Fix retrieval of application mute state
